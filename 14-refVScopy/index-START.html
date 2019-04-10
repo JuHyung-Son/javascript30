@@ -48,7 +48,7 @@
     const captain = person;
     captain.number = 99;
     // how do we take a copy instead?
-    const captain2 = Object.assign({}, person, { number: 99 })''
+    const captain2 = Object.assign({}, person, { number: 99 })
     // We will hopefully soon see the object ...spread
     const caption3 = {...person};
     // Things to note - this is only 1 level deep - both for Arrays and Objects. lodash has a cloneDeep method, but you should think twice before using it.
